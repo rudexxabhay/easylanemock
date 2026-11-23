@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Local binaries, tunnels & debug logs
+cloudflared.exe
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Root temporary inspection & screenshot artifacts
+/*.png
+/raft_*
+/claude_artifact_raw.html
+/reference-report.md
+/*.cjs
+/capture_*.js
+/check_*.js
+/find_*.js
+/inspect_*.js
+/launch_*.js
+/measure_*.js
+/test_*.js
+/verify_*.js
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

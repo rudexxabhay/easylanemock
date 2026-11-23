@@ -1,0 +1,81 @@
+/* ==========================================================================
+   EASYLANE DESIGN TOKENS
+   Faithfully calibrated from Raft.ai observable design system
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Canvas & Surfaces */
+  --canvas-primary: #F9F9F6;
+  --canvas-secondary: #F3F2ED;
+  --canvas-muted: #EDECE5;
+  --surface-card: #FFFFFF;
+  --surface-card-subtle: #F6F5F0;
+  --surface-card-hover: #FAF9F5;
+
+  /* Dark Theme Surfaces (Cinematic Hero & High-Impact Bands) */
+  --navy-deep: #070E1E;
+  --navy-main: #0C1D42;
+  --navy-surface: #11234F;
+  --navy-card: #142858;
+  --navy-border: rgba(255, 255, 255, 0.12);
+
+  /* EasyLane Brand Identity (Accents used with Raft-like restraint) */
+  --brand-blue: #245BFF;
+  --brand-blue-hover: #174AE8;
+  --brand-blue-subtle: rgba(36, 91, 255, 0.08);
+  --brand-blue-glow: rgba(36, 91, 255, 0.22);
+  --accent-yellow: #FCCF3F;
+  --accent-yellow-subtle: rgba(252, 207, 63, 0.14);
+  --status-emerald: #10B981;
+  --status-emerald-subtle: rgba(16, 185, 129, 0.12);
+
+  /* Typography Colors */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-subtle: #94A3B8;
+
+  --text-inv-primary: #FFFFFF;
+  --text-inv-secondary: #E2E8F0;
+  --text-inv-muted: #94A3B8;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(15, 23, 42, 0.07);
+  --border-medium: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.22);
+  --border-glass-light: rgba(255, 255, 255, 0.55);
+  --border-glass-dark: rgba(255, 255, 255, 0.15);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 16px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.08);
+  --shadow-glass: 0 8px 30px 0 rgba(15, 23, 42, 0.08);
+  --shadow-glass-dark: 0 16px 40px -8px rgba(0, 0, 0, 0.45);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Typography Stack */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fragment Mono', Menlo, Consolas, monospace;
+
+  /* Layout & Spacing */
+  --container-max-width: 1360px;
+  --container-narrow-width: 1040px;
+  --section-spacing-desktop: 120px;
+  --section-spacing-mobile: 68px;
+
+  /* Transitions */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
